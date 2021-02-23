@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    line-height: 1;
+    font-family: arial;
+    height: 100%;
+}
+
+nav ul {
+    list-style: none
+}
+
+header {
+    background: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    border: 2px solid rgb(126, 126, 126);
+    padding: 2px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: rgb(126, 126, 126);
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#pageContent {
+    width: 100%;
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+    border-top: 1px solid black;
+    clear: both;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1vh;
+    background: #ffffff;
+    text-align: center;
+}
+
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-right: 75px;
+    color: rgb(20, 20, 20);
+}
+
+hr {
+    clear: both;
+}
+
+#idAusgabeAnzeige {
+    text-align: center;
+    display: none;
+}
+
+#idTextAusgabe {
+    float: left;
+    width: 50%;
+}
+
+#idBildAusgabe {
+    float: right;
+    width: 50%;
+}
+
+.kriterium {
+    float: left;
+    width: 33%
+}
+
+.button {
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+}
+
+@media screen and (max-width: 2000px) {
+    footer {
+        position: relative;
+    }
+    #idTextAusgabe {
+        float: none;
+        width: 100%;
+    }
+    #idBildAusgabe {
+        float: none;
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 600px) {}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyra Auto Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            Autowunschliste</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Auto Auswahl</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="pageContent">
+        <main role="main">
+            <h2>Noch nicht Ihr Traumauto gefunden?</h2>
+            <p> Finden Sie jetzt Ihr Traumauto mit uns! </p>
+            <hr>
+            <div>
+                <h3> Kriterien die für Sie entscheidend sind... </h3>
+                <br>
+                <div class="kriterium">
+                    <input id="Kriterium1" type="checkbox" name="Kriterium1" value="">
+                    <label for="Kriterium1"><h4> Würden Sie ein sportliches Fahrwerk bevorzogen? </h4> </label>
+                    <div> Wenn ja, klicken Sie die Möglichkeit an </div>
+                </div>
+                <div class="kriterium">
+                    <input id="Kriterium2" type="checkbox" name="Kriterium2" value="">
+                    <label for="Kriterium2"><h4> Würden Sie zu einem SUV tendieren?</h4> </label>
+                    <div> Falls nein, lassen Sie das Feld leer </div>
+                </div>
+                <div class="kriterium">
+                    <input id="Kriterium3" type="checkbox" name="Kriterium3" value="">
+                    <label for="Kriterium3"> <h4>Ist Ihnen der niedrige Verbrauch wichtig? </h4> </label>
+                    <div> Wenn ja, klicken Sie die Möglicht an </div>
+                </div>
+                <br>
+                <button class="button" onclick="fAutoCheck()">Auto aussuchen</button>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <h2>Modelle</h2>
+                </div>
+                <img src="img/q7.jpg" width="200px" height="125px" alt="">
+                <img src="img/A8.jpg" width="200px" height="125px" alt="">
+                <img src="img/Q2.jpg" width="200px" height="125px" alt="">
+                <img src="img/r8.jpg" width="200px" height="125px" alt="">
+                <br>
+                <img src="img/RSQ8.jpg" width="200px" height="125px" alt="">
+                <img src="img/A4.jpg" width="200px" height="125px" alt="">
+                <img src="img/Q5.jpg" width="200px" height="125px" alt="">
+                <img src="img/A3.jpg" width="200px" height="125px" alt="">
+            </div>
+            <hr>
+
+            <div id="idAusgabeAnzeige">
+                <h2>Ausgesuchtes Auto</h2>
+                <div id="idTextAusgabe">AusgabeText</div>
+                <div id="idBildAusgabe"><img id="idBildAusgabeSrc" width="400px" height="250px" src="https://via.placeholder.com/400x250" alt=""></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Kyra Mauch | 2021</p>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>
